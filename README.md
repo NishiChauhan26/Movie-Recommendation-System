@@ -57,15 +57,18 @@ The dataset was preprocessed and transformed into vectors using NLP techniques.
 
 ### Homepage
 
-![Homepage](screenshot/homepage.png)
+<h3>Homepage</h3>
+<img src="screenshot/homepage.png" width="900">
 
 ### Recommendation 1
 
-![Recommendations](screenshot/recommendation1.png)
+<h3>Homepage</h3>
+<img src="screenshot/recommendation1.png" width="900">
 
 ### Recommendation 2
 
-![Recommendations](screenshot/recommendation2.png)
+<h3>Homepage</h3>
+<img src="screenshot/recommendation2.png" width="900">
 
 
 ## ⚙️ Installation
