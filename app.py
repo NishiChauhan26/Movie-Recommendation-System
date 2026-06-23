@@ -328,13 +328,13 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ── SESSION STATE ─────────────────────────────────────────────────────────────
+# SESSION STATE 
 if "selected_movie" not in st.session_state:
     st.session_state.selected_movie = movies['title'].values[0]
 if "show_recommendations" not in st.session_state:
     st.session_state.show_recommendations = False
 
-# ── SEARCH ────────────────────────────────────────────────────────────────────
+# SEARCH 
 st.markdown('<div class="search-section">', unsafe_allow_html=True)
 st.markdown('<div class="search-label">Pick a movie you love</div>', unsafe_allow_html=True)
 
@@ -358,7 +358,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 if recommend_clicked:
     st.session_state.show_recommendations = True
 
-# ── RESULTS ───────────────────────────────────────────────────────────────────
+# RESULTS 
 if st.session_state.show_recommendations:
     with st.spinner("Analysing film DNA..."):
         names, posters = recommend(st.session_state.selected_movie)
