@@ -22,6 +22,36 @@ An AI-powered Content-Based Movie Recommendation System built using Python, Stre
 - Streamlit
 - TMDB API
 
+## How It Works
+
+User Selects Movie
+        ↓
+Movie Converted To Vector
+        ↓
+Cosine Similarity Calculated
+        ↓
+Top 5 Similar Movies Found
+        ↓
+TMDB API Fetches Posters
+        ↓
+Recommendations Displayed
+
+
+
+## Dataset
+
+The recommendation model is built using the TMDB Movie Dataset.
+
+Features used:
+- Movie Title
+- Genres
+- Keywords
+- Cast
+- Crew
+- Overview
+
+The dataset was preprocessed and transformed into vectors using NLP techniques.
+
 
 ## 📸 Screenshots
 
@@ -43,7 +73,7 @@ An AI-powered Content-Based Movie Recommendation System built using Python, Stre
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Movie-Recommendation-System.git
+git clone https://github.com/NishiChauhan26/Movie-Recommendation-System.git
 ```
 
 Install dependencies:
@@ -69,8 +99,25 @@ The system uses:
 
 to identify movies with similar characteristics and recommend them to users.
 
+## Future Improvements
+
+- User Authentication
+- Collaborative Filtering
+- Personalized Recommendations
+- Watchlist Feature
+- Movie Search by Genre
+- Streamlit Cloud Deployment
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
+## Author
+
 Nishi Chauhan
+
+Final Year Student
+Aspiring AI & Machine Learning Engineer
+
+GitHub:
+https://github.com/NishiChauhan26
