@@ -27,15 +27,15 @@ An AI-powered Content-Based Movie Recommendation System built using Python, Stre
 
 ### Homepage
 
-![Homepage](homepage.png)
+![Homepage](screenshot/homepage.png)
 
 ### Recommendation 1
 
-![Recommendations](recommendation1.png)
+![Recommendations](screenshot/recommendation1.png)
 
 ### Recommendation 2
 
-![Recommendations](recommendation2.png)
+![Recommendations](screenshot/recommendation2.png)
 
 
 ## ⚙️ Installation
