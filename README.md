@@ -25,15 +25,15 @@ An AI-powered Content-Based Movie Recommendation System built using Python, Stre
 ## How It Works
 
 User Selects Movie
-        ↓
+↓
 Movie Converted To Vector
-        ↓
+↓
 Cosine Similarity Calculated
-        ↓
+↓
 Top 5 Similar Movies Found
-        ↓
+↓
 TMDB API Fetches Posters
-        ↓
+↓
 Recommendations Displayed
 
 
@@ -63,6 +63,15 @@ The dataset was preprocessed and transformed into vectors using NLP techniques.
 
 ### Recommendation 2
 <img src="screenshot/recommendation2.png" width="900">
+
+## 📊 Project Highlights
+
+- Content-Based Recommendation System
+- 5000+ Movies Dataset
+- Cosine Similarity Engine
+- TMDB API Integration
+- Interactive Streamlit UI
+- Top 5 Similar Movie Suggestions
 
 
 ## ⚙️ Installation
